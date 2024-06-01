@@ -1,0 +1,61 @@
+body {
+    font-family:arial
+,Garamond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 400px;
+}
+
+.logo {
+    font-size: 48px;
+    margin: 0;
+    font-family:Palatine
+    , cursive;
+}
+
+.subtext {
+    font-size: 13px;
+    margin: 0;
+    font-family: Playfair Display
+;cursive;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
